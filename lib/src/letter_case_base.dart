@@ -15,19 +15,25 @@
 ///
 /// [letterCount] - (int, int) record.
 extension LetterCase on String {
+  /// Check if the sentence is entirely in lowercase.
+  ///
   bool get isLowerCase {
-    assert(isNotEmpty, 'Please input text at least one: current length $length');
+    assert(
+        isNotEmpty, 'Please input text at least one: current length $length');
 
     return this == toLowerCase();
   }
 
+  /// Check if the sentence is entirely in uppercase.
+  ///
   bool get isUpperCase {
-    assert(isNotEmpty, 'Please input text at least one: current length $length');
+    assert(
+        isNotEmpty, 'Please input text at least one: current length $length');
 
     return this == toUpperCase();
   }
 
-  /// Reversed
+  /// Convert lowercase letters to uppercase and uppercase letters to lowercase.
   /// - Upper to Lower
   /// - Lower to Upper
   ///
@@ -39,7 +45,8 @@ extension LetterCase on String {
   /// ```
   ///
   String toReversedCase() {
-    assert(isNotEmpty, 'Please input text at least one: current length $length');
+    assert(
+        isNotEmpty, 'Please input text at least one: current length $length');
 
     final buffer = StringBuffer();
     for (final str in split('')) {
@@ -49,10 +56,13 @@ extension LetterCase on String {
     return buffer.toString();
   }
 
+  /// Return the count of lowercase letters.
+  ///
   /// LowerCase Count
   ///
   int get lowerCount {
-    assert(isNotEmpty, 'Please input text at least one: current length $length');
+    assert(
+        isNotEmpty, 'Please input text at least one: current length $length');
 
     int count = 0;
 
@@ -66,10 +76,13 @@ extension LetterCase on String {
     return count;
   }
 
+  /// Return the count of uppercase letters.
+  ///
   /// UpperCase Count
   ///
   int get upperCount {
-    assert(isNotEmpty, 'Please input text at least one: current length $length');
+    assert(
+        isNotEmpty, 'Please input text at least one: current length $length');
 
     int count = 0;
 
@@ -82,11 +95,14 @@ extension LetterCase on String {
     return count;
   }
 
+  /// Return the counts of both lowercase and uppercase letters.
+  ///
   /// First [lower], Next [upper]
   ///
   /// Record style
   ({int lower, int upper}) get letterCount {
-    assert(isNotEmpty, 'Please input text at least one: current length $length');
+    assert(
+        isNotEmpty, 'Please input text at least one: current length $length');
 
     return (lower: lowerCount, upper: upperCount);
   }

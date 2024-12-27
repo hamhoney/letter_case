@@ -63,4 +63,4 @@ final isReversedCase = test.toReversedCase();
 |   `lowerCount`    |   int     |   Return the count of lowercase letters.      |
 |   `upperCount`    |   int     |   Return the count of uppercase letters.      |
 |   `letterCount`   |   (int, int)      |   Return the counts of both lowercase and uppercase letters.  |
-<p style="text-align: right;"><a href="#getting-started">🔼</a>></p>
+<p align="right"><a href="#getting-started">🔼</a></p>
