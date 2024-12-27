@@ -1,5 +1,12 @@
 # letter_case
+
+[![Pub Version](https://img.shields.io/pub/v/letter_case?color=blue)](https://pub.dev/packages/letter_case)
+
+<br/>
 Upper, Lower extension function of String type in Dart
+
+<br/>
+
 <!-- 
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
@@ -10,8 +17,7 @@ For information about how to write a good package README, see the guide for
 For general information about developing packages, see the Dart guide for
 [creating packages](https://dart.dev/guides/libraries/create-packages)
 and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages). 
-
+[developing packages and plugins](https://flutter.dev/to/develop-packages).
 
 ## Getting started
 -->

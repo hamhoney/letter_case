@@ -1,15 +1,7 @@
 name: letter_case
-description: Upper, Lower extension function of String type in Dart.
-version: 1.0.0
+description: Try it expanded Upper, Lower cases extension of 'String' type in Dart.
+version: 1.0.1
 repository: https://github.com/hamhoney/letter_case
 
 environment:
   sdk: ^3.6.0
-
-# Add regular dependencies here.
-dependencies:
-  # path: ^1.8.0
-
-dev_dependencies:
-  lints: ^5.0.0
-#  test: ^1.24.0
